@@ -1,0 +1,43 @@
+name: sinking_fund_app
+description: Sinking Fund App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  path_provider: ^2.1.5
+  rxdart: ^0.27.7
+
+  # ✅ DATABASE (DRIFT)
+  drift: ^2.32.1
+  sqlite3_flutter_libs: ^0.6.0
+
+  # ✅ UI / FEATURES
+  fl_chart: ^1.2.0
+  excel: ^4.0.6
+  share_plus: ^7.2.2
+
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  drift_dev: ^2.32.1
+  build_runner: ^2.4.9
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
